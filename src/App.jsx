@@ -3,9 +3,9 @@ import MainRoutes from "./Routes/MainRoutes";
 function App() {
   return (
     <>
-      <h1 className="text-3xl text-center mt-10">
+      <div>
         <MainRoutes />
-      </h1>
+      </div>
     </>
   );
 }
