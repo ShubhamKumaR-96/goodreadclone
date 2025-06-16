@@ -1,7 +1,11 @@
+import HomePage from "./pages/Home";
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl text-center">Good read clone</h1>
+      <h1 className="text-3xl text-center mt-10">
+        <HomePage />
+      </h1>
     </>
   );
 }
